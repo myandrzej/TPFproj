@@ -1,0 +1,84 @@
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #4D0A65;
+}
+
+
+form {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+h1 {
+  text-align: center;
+  margin: 50px 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sub-form-1, .sub-form-2 {
+  width: 50%;
+  /* height: revert; */
+  /* height: 60vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 20px 20px;
+}
+
+label {
+  padding: 10px;
+  color: white;
+}
+
+input {
+  width: 410px;
+  height: 59px;
+  line-height: 2em;
+  border-radius: 0.75em;
+
+
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  width: 226px;
+  height: 78px;
+  font-size: 16px;
+  margin-right: 13.5vw;
+  padding: 10px;
+}
+
+.time_left_p{
+  background: white;
+  font-size: 24px;
+}
+
+.timer_label{
+  font-size: 24px;
+}
